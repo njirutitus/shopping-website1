@@ -25,3 +25,50 @@ h2,
 h3 {
   letter-spacing: 0.1em;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+}
+
+.nav-link {
+  margin: 0 0.4em;
+  padding: 0.2em;
+  transition: all ease-in-out 0.5s;
+}
+
+.nav-link:hover {
+  background-color: #8f7383;
+  color: #fff;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-title {
+  font-size: 5em;
+  margin-bottom: 1em;
+}
+
+.btn {
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  font-size: 1.5em;
+  margin: 1em 0;
+  background-color: rgb(32, 95, 32);
+  color: white;
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+}
+
+.btn:hover {
+  background-color: rgb(88, 143, 88);
+  outline: none;
+}
